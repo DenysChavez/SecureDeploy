@@ -1,0 +1,32 @@
+# Provider plugins and module cache: large, platform-specific, re-downloadable
+.terraform/
+
+# State files: can contain secrets and infrastructure details in plaintext
+*.tfstate
+*.tfstate.*
+
+# Crash logs may include sensitive data
+crash.log
+crash.*.log
+
+# Variable files often hold secrets or environment-specific values.
+# To document required variables, commit a file named e.g. terraform.tfvars.example
+*.tfvars
+*.tfvars.json
+
+# Saved plan files can contain sensitive values
+*.tfplan
+
+# Local-only override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI config files can contain API tokens
+.terraformrc
+terraform.rc
+
+# Local environment and OS files
+.env
+.DS_Store
